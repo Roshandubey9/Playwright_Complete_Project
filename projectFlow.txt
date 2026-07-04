@@ -1,0 +1,56 @@
+1. Login Module (8–10 Test Cases)
+Positive
+✅ Valid Login
+✅ Login using standard_user
+✅ Login with Enter key
+Negative
+❌ Invalid Username
+❌ Invalid Password
+❌ Both Invalid
+❌ Empty Username
+❌ Empty Password
+❌ Empty Username & Password
+❌ Locked User (locked_out_user)
+2. Inventory/Product Module (10–12 Test Cases)
+✅ Verify Product Page Title
+✅ Verify 6 Products are displayed
+✅ Verify Product Name
+✅ Verify Product Price
+✅ Verify Product Image
+✅ Sort A → Z
+✅ Sort Z → A
+✅ Sort Price Low → High
+✅ Sort Price High → Low
+✅ Open Product Details
+✅ Verify Product Description
+✅ Verify Back to Products button
+3. Cart Module (10 Test Cases)
+✅ Add Single Product
+✅ Add Multiple Products
+✅ Remove Product
+✅ Remove Multiple Products
+✅ Cart Badge Count
+✅ Continue Shopping
+✅ Cart Page Validation
+✅ Product Name Validation
+✅ Product Price Validation
+✅ Cart Empty Validation
+4. Checkout Module (12–15 Test Cases)
+Checkout Information
+✅ Valid Information
+❌ Empty First Name
+❌ Empty Last Name
+❌ Empty Postal Code
+Checkout Overview
+✅ Verify Product
+✅ Verify Price
+✅ Verify Tax
+✅ Verify Total
+Finish Order
+✅ Successful Checkout
+✅ Back Home Button
+✅ Order Confirmation Message
+5. Logout Module
+✅ Logout Successfully
+✅ Verify User Redirected to Login
+✅ Browser Back Should Not Open Inventory
